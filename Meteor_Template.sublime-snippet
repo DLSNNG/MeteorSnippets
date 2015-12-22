@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<template name="$1">
+</template>
+    ]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>template</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Meteor Template</description>
+</snippet>

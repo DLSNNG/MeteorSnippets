@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+Router.route('/${1:Path}', {
+	template: '${2:Template}',
+	waitOn: function() {
+		return Meteor.subscribe('${3:Publication}');
+	},
+	data: function() {
+		return ${4:Subscription}.find({${5:params}});
+	}
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>mroute</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Meteor Iron Router Route</description>
+</snippet>

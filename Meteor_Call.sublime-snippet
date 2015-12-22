@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+Meteor.call('${1:MethodName}', ${2:params}, function(error, result) {
+	if(error) {
+		throw new Meteor.Error(403, error.reason);
+	}
+	else {
+		${4:console.log(result);}
+	}
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>mcall</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Meteor Method Call</description>
+</snippet>

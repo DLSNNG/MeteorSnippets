@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+Template.${1:TemplateName}.helpers({
+	${2:propName}: function() {
+		return ${3: Collection}.find({${4:params}}, {
+	    transform: function(doc) {
+	      var newDoc = doc;
+	      ${5}
+	      return newDoc;
+	    }
+	  });
+	}
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>mhelper</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Meteor Helper</description>
+</snippet>

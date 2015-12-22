@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[<div class="col-${1:md}-${2:12}">$3</div>]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>bscol</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>bootstrap column</description>
+</snippet>

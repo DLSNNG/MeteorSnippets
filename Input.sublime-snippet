@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[<input type="$1" name="$2" class="form-control$3" placeholder="$4">]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>input</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Input</description>
+</snippet>

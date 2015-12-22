@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Template.${1:templateName}.events({
+    "${2:click} ${3:.class}": function(event) {
+    	event.preventDefault();
+      ${4:console.log("clicked");}
+    }
+});
+]]></content>
+	<tabTrigger>mevent</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Meteor event</description>
+</snippet>

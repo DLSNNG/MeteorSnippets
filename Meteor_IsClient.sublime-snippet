@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+if (Meteor.isClient) {
+	${1}
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>isclient</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Meteor Is Client Wrapper</description>
+</snippet>

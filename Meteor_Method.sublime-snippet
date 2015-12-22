@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+Meteor.methods({
+    '${1:MethodName}': function(${2:params}){
+      ${3:return;}
+    }
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>mmethod</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Meteor Method</description>
+</snippet>
